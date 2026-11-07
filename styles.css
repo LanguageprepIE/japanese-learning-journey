@@ -3,3 +3,5 @@
 
 .scene{margin:10px 0;padding:12px 14px;border:1px solid var(--edge);border-radius:12px;background:#fff9f5}.scene summary{cursor:pointer}.scene[open]{background:#f9eef1}.scene p{margin-bottom:0}.report-help{margin:22px 0;padding:18px;border-radius:14px;background:#f9f1f2;border:1px solid var(--edge)}.report-help h2{font-size:20px}.report-help ol{padding-left:22px}.report-help li{margin-bottom:8px}
 @media print{.topbar,footer,.actions,.timer-bar,.report-help,#resetSession{display:none!important}.report-box{border:0;max-width:none;margin:0;padding:0}.review-item{break-inside:avoid}}
+
+.kana-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}.kana-card{background:#fff8fa;border:1px solid #edd1da;border-radius:14px;padding:12px;text-align:center;display:grid;gap:3px}.kana-card strong{font-family:'Noto Sans JP',sans-serif;font-size:40px;color:var(--sakura);line-height:1.3}.kana-card span{font-weight:700}.kana-card small{font-family:'Noto Sans JP',sans-serif;color:var(--muted)}.scene-done{margin-top:12px;font-size:13px;padding:8px 12px;min-height:38px}@media(max-width:520px){.kana-card{padding:8px}.kana-card strong{font-size:32px}}

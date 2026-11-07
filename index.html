@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f8f3ed" />
+  <meta name="description" content="Un viaje práctico al japonés: escucha, practica, conversa y repasa." />
+  <title>日本への旅 · Japanese Learning Journey</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Home"> <span class="seal">旅</span><span><strong>日本への旅</strong><small>Japanese Learning Journey</small></span></a>
+      <nav aria-label="Main navigation"><button data-route="home" class="nav-link active" id="nav-home">Inicio</button><button data-route="lessons" class="nav-link" id="nav-lessons">Lecciones</button><button data-route="review" class="nav-link" id="nav-review">Repaso</button><button data-route="report" class="nav-link" id="nav-report">Informe</button></nav>
+      <button id="langToggle" class="lang-toggle" aria-label="Change language">ES / EN</button>
+    </header>
+    <main id="app" aria-live="polite"></main>
+    <footer><span>🌸 Sakura Manga Passport · v0.1</span><span id="footerPrivacy">Sin cuentas · Sin datos enviados a servidores</span></footer>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>
